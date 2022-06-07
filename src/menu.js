@@ -1,11 +1,11 @@
-import './layout.css'
+import React from 'react';
+import {Link} from "react-router-dom"
+import './home.css';
 
-function() {
+const menu = function() {
       return (
         <div>
-          {/*
-  
-  */}
+
           <title>EyesSpy</title>
           <meta charSet="utf-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -115,4 +115,6 @@ function() {
             </main></div></div>
       );
     }
-  });
+  
+
+  export default menu;

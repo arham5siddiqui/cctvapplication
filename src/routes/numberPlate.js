@@ -1,9 +1,14 @@
-import './mask.css' 
-export default function NumberPlate() {
+function() {
     return (
       <div>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title> Stolen Vehicles</title>
-        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/shorthandcss@1.1.1/dist/shorthand.min.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:200,300,400,500,600,700,800,900&display=swap" />
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+        <link href="mask.css" rel="stylesheet" type="text/css" media="all" />
         <nav className="w-100pc flex flex-column md-flex-row md-px-10 py-5 bg-black">
           <div className="flex justify-between">
             <h1 className="logoname"><a href="index.html">Eyes<span>S</span>py</a></h1>
@@ -84,4 +89,5 @@ export default function NumberPlate() {
           <i className="w-4" data-feather="download" />
         </a></div>
     );
-}
+  }
+});
